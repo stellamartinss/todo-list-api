@@ -23,6 +23,7 @@ const register = async (req, res) => {
 }
 
 const login = async (req, res) => {
+  console.log("passou aqui")
   const { email, password } = req.body
 
   try {
